@@ -1,0 +1,1 @@
+add_executable(ex00 main.cpp FragTrap.cpp FragTrap.hpp)
