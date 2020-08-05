@@ -1,0 +1,1 @@
+add_executable(ex03 main.cpp FragTrap.cpp FragTrap.hpp ScavTrap.cpp ScavTrap.hpp ClapTrap.cpp ClapTrap.hpp NinjaTrap.cpp NinjaTrap.hpp)
