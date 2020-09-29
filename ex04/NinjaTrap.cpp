@@ -22,15 +22,18 @@ NinjaTrap::~NinjaTrap()
 
 void NinjaTrap::ninjaShoebox(const NinjaTrap &ninjaTrap)
 {
+	(void) ninjaTrap;
     std::cout << "pets another ninja, or itself maybe?" << std::endl;
 }
 
 void NinjaTrap::ninjaShoebox(const ScavTrap &scavTrap)
 {
+	(void) scavTrap;
     std::cout << "kicks the shitty scavtrap" << std::endl;
 }
 
 void NinjaTrap::ninjaShoebox(const FragTrap &fragTrap)
 {
+	(void) fragTrap;
     std::cout << "frag frag" << std::endl;
 }

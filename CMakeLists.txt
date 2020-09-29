@@ -3,7 +3,7 @@ project(cpp_mod3)
 
 set(CMAKE_CXX_STANDARD 98)
 set(CMAKE_CXX_COMPILER "clang++")
-set(CMAKE_CXX_FLAGS "-Wall -Wextra -std=c++98")
+set(CMAKE_CXX_FLAGS "-Wall -Wextra -Werror -std=c++98")
 
 #add_subdirectory(ex00)
 #add_subdirectory(ex01)
